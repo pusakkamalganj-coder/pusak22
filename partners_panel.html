@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUSAK | Executive Panel</title>
+    <meta name="description" content="Meet the Executive Panel of the Public University Students’ Association of Kamalganj (PUSAK).">
+
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>1
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        pusak: {
+                            green: '#0F6B3E',
+                            darkGreen: '#0A4A2A',
+                            gold: '#D4AF37',
+                            bg: '#F9FBF8',
+                            text: '#1F2933',
+                            gray: '#64748B'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-pusak-bg text-pusak-text font-sans antialiased">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-100/50">
+        <div class="flex h-20 max-w-7xl mx-auto px-6 items-center justify-between">
+            <!-- Logo -->
+            <a href="index.html" class="flex items-center gap-2">
+                <div class="w-10 h-10 bg-gradient-to-br from-pusak-green to-pusak-darkGreen rounded-lg flex items-center justify-center text-white font-bold text-xl shadow-md">P</div>
+                <div class="flex flex-col">
+                    <span class="font-bold tracking-tight text-lg text-pusak-green">PUSAK</span>
+                    <span class="text-[0.65rem] tracking-wider text-pusak-gray uppercase font-medium">Est. Kamalganj</span>
+                </div>
+            </a>
+
+            <!-- Links -->
+            <div class="hidden md:flex items-center gap-6 text-sm font-medium text-pusak-text/80">
+                <a href="index.html#about" class="hover:text-pusak-green transition-colors">About</a>
+                <a href="index.html#mission" class="hover:text-pusak-green transition-colors">Mission</a>
+                <a href="index.html#values" class="hover:text-pusak-green transition-colors">Values</a>
+                <a href="index.html#activities" class="hover:text-pusak-green transition-colors">Activities</a>
+                <a href="index.html#join" class="px-5 py-2.5 bg-pusak-green hover:bg-pusak-darkGreen text-white rounded-full text-xs font-semibold">Join Community</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-12 text-center bg-pusak-bg">
+        <h1 class="text-4xl md:text-5xl font-bold text-pusak-text mb-4">Sponsors and Partners</h1>
+        <p class="text-lg md:text-xl text-pusak-gray max-w-2xl mx-auto">Meet the leadership team driving the vision and initiatives of PUSAK.</p>
+    </section>
+
+    <!-- Team Members Grid -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+                
+                <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member1.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">A M Niaz Rahman
+                    <p class="text-pusak-green font-medium mb-2">President</p>
+                    <p class="text-pusak-gray text-sm">Bangladesh Maritime University</p>
+                </div>
+
+                <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member2.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Shahdad Khan Jholok</h3>
+                    <p class="text-pusak-green font-medium mb-2">General Secretary</p>
+                    <p class="text-pusak-gray text-sm">Chittagong University</p>
+                </div>
+
+                <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member3.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Md. Ibrahim Ali</h3>
+                    <p class="text-pusak-green font-medium mb-2">Senior Vice President</p>
+                    <p class="text-pusak-gray text-sm">Chittagong University</p>
+                </div>
+
+                <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member4.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Toiyob Ali</h3>
+                    <p class="text-pusak-green font-medium mb-2">Vice President</p>
+                    <p class="text-pusak-gray text-sm">Shahjalal University of Science & Technology</p>
+                </div>
+ <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member5.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Jibon Sharma</h3>
+                    <p class="text-pusak-green font-medium mb-2">Vice President</p>
+                    <p class="text-pusak-gray text-sm">Shaheed Syed Nazrul Islam Medical Collage</p>
+                </div>
+<!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member69.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Tasrina Hussan Urmi</h3>
+                    <p class="text-pusak-green font-medium mb-2">Vice President</p>
+                    <p class="text-pusak-gray text-sm">Chittagong University of Engineering & Technology</p>
+                </div>
+ <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member6.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Mohammad Ajmaeen Faiek Rahman</h3>
+                    <p class="text-pusak-green font-medium mb-2">Joint Secretary</p>
+                    <p class="text-pusak-gray text-sm">Mawlana Bhashani Science & Technology University</p>
+                </div>
+
+<!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member96.png" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Fahmida Nasrin</h3>
+                    <p class="text-pusak-green font-medium mb-2">Joint Secretary</p>
+                    <p class="text-pusak-gray text-sm">Dhaka University</p>
+                </div>
+ <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member7.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Anmoy Datta</h3>
+                    <p class="text-pusak-green font-medium mb-2">Joint Secretary</p>
+                    <p class="text-pusak-gray text-sm">Khulna University of Engineering & Technology</p>
+                </div>
+ <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member8.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Saiful Isalm</h3>
+                    <p class="text-pusak-green font-medium mb-2">Joint Secretary</p>
+                    <p class="text-pusak-gray text-sm">Sylhet Engineering College</p>
+                </div>
+ <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member9.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Soikot Kumar Kanu</h3>
+                    <p class="text-pusak-green font-medium mb-2">Joint Secretary</p>
+                    <p class="text-pusak-gray text-sm">Jahangirnagar University</p>
+                </div>
+ 
+ <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member10.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Saruwer Hossain</h3>
+                    <p class="text-pusak-green font-medium mb-2">Organizing Secretary</p>
+                    <p class="text-pusak-gray text-sm">Sylhet Osmani Medical College Hospital</p>
+                </div>
+ <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member11.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Rafiqul Hasan</h3>
+                    <p class="text-pusak-green font-medium mb-2">Assistant Organizing Secretary</p>
+                    <p class="text-pusak-gray text-sm">Patuakhali Medical College</p>
+                </div>
+ <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member12.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Birajit Rajkumar</h3>
+                    <p class="text-pusak-green font-medium mb-2">
+Assistant Organizing Secretary</p>
+                    <p class="text-pusak-gray text-sm">Sylhet Agriculture University</p>
+                </div>
+ <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member13.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Bokhtiyar Bin Mohammad</h3>
+                    <p class="text-pusak-green font-medium mb-2">Assistant Organizing Secretary</p>
+                    <p class="text-pusak-gray text-sm">Sylhet Osmani Medical College Hospital</p>
+                </div>
+ <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member14.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Suhanur Rahman</h3>
+                    <p class="text-pusak-green font-medium mb-2">
+Assistant Organizing Secretary</p>
+                    <p class="text-pusak-gray text-sm">Bangladesh University of Professionals</p>
+                </div>
+ <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member15.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Mahbub Ahmed Tarafder</h3>
+                    <p class="text-pusak-green font-medium mb-2">
+Office Secretary</p>
+                    <p class="text-pusak-gray text-sm">Shahjalal University of Science & Technology</p>
+                </div>
+ <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member17.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Deloyar Hossain Farhan</h3>
+                    <p class="text-pusak-green font-medium mb-2">Finance Secretary</p>
+                    <p class="text-pusak-gray text-sm">Noakhali Science & Technology University</p>
+                </div>
+ <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member18.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Samsuddin Islam</h3>
+                    <p class="text-pusak-green font-medium mb-2">Publication Secretary</p>
+                    <p class="text-pusak-gray text-sm">University of Rajshahi</p>
+                </div>
+ 
+ <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member19.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Jannatul Ferduse Mourin</h3>
+                    <p class="text-pusak-green font-medium mb-2">Social Welfare Secretary</p>
+                    <p class="text-pusak-gray text-sm">Bangladesh University of Professionals</p>
+                </div>
+ <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member20.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Md Minhaz Rahman</h3>
+                    <p class="text-pusak-green font-medium mb-2">Sports Secretary</p>
+                    <p class="text-pusak-gray text-sm">Jashore University of Science and Technology </p>
+                </div>
+ <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member21.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Syeda Nazifa Akter Nijhum</h3>
+                    <p class="text-pusak-green font-medium mb-2">
+Women Affairs Secretary</p>
+                    <p class="text-pusak-gray text-sm">Sylhet Agriculture University</p>
+                </div>
+ <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member22.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Hridi Singha</h3>
+                    <p class="text-pusak-green font-medium mb-2">Health Secretary</p>
+                    <p class="text-pusak-gray text-sm">Sylhet Osmani Medical College Hospital</p>
+                </div>
+ <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member23.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">S M Rifakat Islam</h3>
+                    <p class="text-pusak-green font-medium mb-2">
+Cultural Affairs Secretary</p>
+                    <p class="text-pusak-gray text-sm">Sylhet Agriculture University</p>
+                </div>
+<!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member16.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Tahmidul Haque</h3>
+                    <p class="text-pusak-green font-medium mb-2">
+Assistant Office Secretary</p>
+                    <p class="text-pusak-gray text-sm">Noakhali Science & 	Technology University</p>
+                </div>
+ 
+<!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member24.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Debay Pritom</h3>
+                    <p class="text-pusak-green font-medium mb-2">Executive Member</p>
+                    <p class="text-pusak-gray text-sm">Pabna Science & Technology University</p>
+                </div>
+
+ <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member25.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Zarin Mosharrat Eva</h3>
+                    <p class="text-pusak-green font-medium mb-2">Executive Member</p>
+                    <p class="text-pusak-gray text-sm">Bangladesh University of Engineering & Technology</p>
+                </div>
+ <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member26.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Fatima Rahman</h3>
+                    <p class="text-pusak-green font-medium mb-2">Treasurer</p>
+                    <p class="text-pusak-gray text-sm">Handling finances, budgeting, and resource management for initiatives.</p>
+                </div>
+ <!-- Member Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-md text-center hover:shadow-xl transition-shadow">
+                    <div class="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-pusak-green">
+                        <img src="members/partner_pic/member27.jpg" alt="A M Niaz Rahman" class="inset-0 w-full h-full object-cover">
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-pusak-text mb-1">Debopriya Debnath</h3>
+                    <p class="text-pusak-green font-medium mb-2">Executive Member</p>
+                    <p class="text-pusak-gray text-sm">Noakhali Science & Technology University</p>
+                </div>
+
+
+
+               
+
+            </div>
+        </div>
+    </section>
+
+
+
+ <!-- CTA Section -->
+    <section id="join" class="py-24 px-6">
+        <div class="max-w-5xl mx-auto bg-pusak-green rounded-3xl p-12 md:p-16 text-center relative overflow-hidden shadow-2xl shadow-pusak-green/30">
+            <!-- Decorative circles -->
+            <div class="absolute top-0 left-0 w-64 h-64 bg-white/5 rounded-full -translate-x-1/2 -translate-y-1/2 blur-2xl"></div>
+            <div class="absolute bottom-0 right-0 w-64 h-64 bg-pusak-gold/10 rounded-full translate-x-1/2 translate-y-1/2 blur-2xl"></div>
+
+            <div class="relative z-10">
+                <h2 class="text-3xl md:text-5xl font-semibold text-white tracking-tight mb-6">Be a Part of the Change</h2>
+                <p class="text-white/80 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light">
+                    Join hands with PUSAK to serve Kamalganj through knowledge, unity, and action. Together, we build a better tomorrow.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button class="px-8 py-4 bg-white text-pusak-green rounded-full font-semibold hover:bg-gray-50 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 flex items-center justify-center gap-2">
+                        Become a Member
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="user-plus" class="lucide lucide-user-plus w-5 h-5"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><line x1="19" x2="19" y1="8" y2="14"></line><line x1="22" x2="16" y1="11" y2="11"></line></svg>
+                    </button>
+                    <button class="px-8 py-4 bg-transparent border border-white/30 text-white rounded-full font-semibold hover:bg-white/10 transition-all">
+                        Contact Us
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-pusak-text pt-20 pb-10 text-white/90">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-12 mb-16">
+                <div class="col-span-1 md:col-span-2">
+                    <div class="flex items-center gap-2 mb-6">
+                        <div class="flex text-sm font-bold text-white w-8 h-8 rounded-md items-center justify-center">P</div>
+                        <span class="font-bold text-xl tracking-tight">PUSAK</span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed max-w-sm mb-6">
+                        Contributing to the sustainable development of Kamalganj Upazila through education, social service, and community-driven initiatives.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-pusak-green transition-colors text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="facebook" class="lucide lucide-facebook w-5 h-5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-pusak-green transition-colors text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="twitter" class="lucide lucide-twitter w-5 h-5"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-pusak-green transition-colors text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="linkedin" class="lucide lucide-linkedin w-5 h-5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-6 text-white">Organization</h4>
+                    <ul class="space-y-4 text-sm text-gray-400">
+                        <li><a href="#about" class="hover:text-pusak-gold transition-colors">About Us</a></li>
+                        <li><a href="#mission" class="hover:text-pusak-gold transition-colors">Mission &amp; Vision</a></li>
+                        <li><a href="#values" class="hover:text-pusak-gold transition-colors">Core Values</a></li>
+                        <li><a href="#activities" class="hover:text-pusak-gold transition-colors">Activities</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-6 text-white">Contact</h4>
+                    <ul class="space-y-4 text-sm text-gray-400">
+                        <li class="flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="map-pin" class="lucide lucide-map-pin w-4 h-4 text-pusak-green"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            Kamalganj, Bangladesh
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mail" class="lucide lucide-mail w-4 h-4 text-pusak-green"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
+                            info@pusak.org
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-xs text-gray-500">© 2023 PUSAK. All rights reserved.</p>
+                <div class="flex gap-6 text-xs text-gray-500">
+                    <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Initialize Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+
+
+
+
+
+</body>
+</html>
